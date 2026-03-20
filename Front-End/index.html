@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Trabalho de Tarefas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Trabalho de Tarefas</h1>
+
+    <div class="container">
+        <button id="listar">Listar Tarefas</button>
+        <ul id="lista-tarefas"></ul>
+    </div>
+
+    <div class="container">
+        <h2>Adicionar Tarefa</h2>
+        <input type="text" id="titulo" placeholder="Título" required>
+        <textarea id="descricao" placeholder="Descrição" required></textarea>
+        <button type="button" id="cadastrar">Adicionar</button>
+    </div>
+
+    <div class="container">
+        <h2>Atualizar Tarefa</h2>
+        <input type="number" id="id" placeholder="ID da Tarefa">
+        <button type="button" id="atualizar">Atualizar com os dados acima</button>
+    </div>
+
+    <div class="container">
+        <h2>Deletar Tarefa</h2>
+        <input type="number" id="id-deletar" placeholder="ID para Deletar">
+        <button type="button" id="deletar-btn">Deletar</button>
+    </div>
+
+    <script src="./src/config/renderer.js"></script>
+</body>
+</html>
