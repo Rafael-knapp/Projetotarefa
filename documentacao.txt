@@ -1,0 +1,28 @@
+################################################
+#           Documentação ProjetoTarefas:       #
+################################################
+
+
+             Comandos
+----------------------------------------------------------------------
+Comandos do Lider:
+git clone URL
+cd repositorio
+git checkout -b develop
+git add .
+git commit -m “Adiciona Readme com dados do projeto e da equipe”
+git push -u origin develop
+
+Comandos dos Desenvolvedores:
+git clone URL
+cd repositorio
+git checkout develop
+git pull
+git checkout -b feature/seu-nome
+touch seu-nome.txt
+git add .
+git push
+git checkout develop
+git merge feature/seu-nome
+git push
+------------------------------------------------------------------------
